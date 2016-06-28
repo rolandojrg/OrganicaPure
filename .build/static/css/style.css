@@ -1,0 +1,183 @@
+/* ----- RESET ----- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* ------ CUSTOM SETTING BEGINS  ------ */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 12px;
+  color: black;
+  line-height: 1.25rem; }
+
+@media (min-width: 768px) {
+  #content .row {
+    margin-left: 0;
+    margin-right: 0; }
+  #content .col-sm-4 {
+    padding-left: 30px;
+    padding-right: 30px; }
+  #content .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px; }
+  #content .col-sm-8 {
+    padding-left: 0;
+    padding-right: 0; } }
+/* ------ HEADER CONTENT ------ */
+header {
+  margin-top: 1rem; }
+  header nav {
+    display: block;
+    padding: 2rem 2rem 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #000000; }
+    header nav a {
+      display: inline-block;
+      color: black;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.25rem;
+      margin: auto 2rem;
+      transition: background-color 500ms;
+      -o-transition: background-color 500ms;
+      -moz-transiiton: background-color 500ms;
+      -webkit-transition: background-color 500ms; }
+    header nav a:hover {
+      color: black;
+      text-decoration: none;
+      background-color: #bcddb3; }
+
+.search-form {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #CCC;
+  box-shadow: inset 0px 0px 0px 0px transparent;
+  color: #000; }
+
+.shopping-cart {
+  margin-left: 5px; }
+
+.logo img {
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin-right: 0.5rem; }
+  .logo img:hover {
+    text-decoration: none; }
+
+.title {
+  font-size: 1rem;
+  color: black;
+  margin-top: 0.5rem;
+  display: inline-block; }
+
+input.form-control:focus {
+  border: 1px solid #bcddb3;
+  box-shadow-color: #bcddb3; }
+
+@media (min-width: 768px) {
+  .footer-left {
+    text-align: left; }
+
+  .footer-right {
+    text-align: right; }
+
+  header nav a {
+    font-size: 0.8rem;
+    margin: auto 2rem; } }
+@media (max-width: 767px) {
+  .logo img {
+    width: 36px;
+    height: 36px; }
+
+  .footer-left, .footer-right {
+    text-align: center; }
+
+  header nav a {
+    font-size: 0.75rem;
+    margin: auto 5px; } }
+/* ------ FOOTER CONTENT ------ */
+footer {
+  background-color: #bcddb3;
+  margin-top: 1rem;
+  padding: 1rem 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.25rem; }
+  footer .contact {
+    color: black;
+    display: inline-block; }
+  footer .icon img {
+    width: 20px;
+    height: 20px;
+    display: inline-block; }
+
+/* ------ FREQUENTLY ASKED QUESTIONS ----- */
+.faq h1 {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  .faq h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    width: 100px;
+    border-bottom: 3px solid #bcddb3;
+    margin-left: -50px;
+    margin-bottom: 2.5rem; }
+.faq h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem; }
+
+#most_popular .accent {
+  background-color: #ffc0c9;
+  margin: 0 -15px 15px;
+  padding: 15px; }
+
+.question {
+  margin-bottom: 1rem; }
+  .question h3 {
+    font-size: 0.9rem;
+    font-weight: bold; }
+  #most_popular .question h3 {
+    color: white; }
+  #about_product .question h3 {
+    color: #c7edff; }
+  #about_shipping .question h3 {
+    color: #ffc0c9; }
+
+.image {
+  max-width: 71%; }
