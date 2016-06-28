@@ -124,6 +124,7 @@ input.form-control:focus {
 
   header nav a {
     font-size: 0.75rem;
+    padding: 0.25rem;
     margin: auto 5px; } }
 /* ------ FOOTER CONTENT ------ */
 footer {
